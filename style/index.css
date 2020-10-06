@@ -1,1 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    
+}
+html{
+    font-size:62.5%;
+}
+h1{ 
+   font-family:"Press Start 2p";
+   color:wheat;
+   text-shadow: 4px 4px rgba(255, 255, 255, 0.301);
+   
+}
+/* bg-color */
+.bg-clr{
+    background-color:rgb(83, 27, 27);
+}
+
+
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    /* background image for website */
+    background-image: url(https://background-tiles.com/overview/red/patterns/large/1056.png);
+}
+
+/* nav bar */
+.item:nth-of-type(1){
+  order:2;
+}
+.container1{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    color:wheat;
+}
+
+.container1 .item{
+    width: 45%;
+    height:25vh;
+    background: url(https://picsum.photos/250) no-repeat center center/cover;
+    border:1px solid black;
+    margin:20px;
+}
+.container1 .myname a{
+    width:100%;
+    margin: 1.5vh 0;
+    background-color:black;
+    color:white;
+}
+
+/* images */
+section{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* section images */
+section img{
+    margin:2%;
+}
+
+.yosemite{
+    display:inline-block;
+    width:73%;
+}
+.button1{
+    width:100%;
+    color:white;
+}
+.button2{
+    width:100%;
+    color:white;
+}
+.button3{
+    width:100%;
+    color:white;
+}
+
+.button4{
+    width:100%;
+    color:white;
+}
+
+.buttons{  
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.b1{
+    display: inline-block;
+    width: 15%;
+    background-color: black;
+}
+.b2{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;
+}
+
+.b3{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;
+}
+
+.b4{
+    display: inline-block;
+    width: 15%;
+    margin-left:10%;
+    background-color: black;  
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    width:15%;
+    text-align:center;
+}
+.sec1{
+    color:white;
+    padding:2%;
+    margin:2%;
+}
+
+footer{
+    width: 100%;
+    padding: 0.1vh;
+}
+.bottomimg{
+    height: 22vh;
+    width: 100%;
+    padding: 0.8%;
+}
+.bottomimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer .buttons{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contactBar{
+    padding: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:wheat;
+
+}
+.btn{
+    background-color:black;
+    color:white;
+
+}
+.contactbar p{
+    padding-bottom: 0.2%;
+}
+
+@media(max-width: 800px){
+    header{
+        font-size: x-large;
+    }
+    .container1{
+        display: inline-block;
+    }
+    .container1 .item{
+        width:600px;
+    }
+    .bottomimg{
+        height: 22vh;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .container1 .myname a{
+        width:27%;
+}
+@media(max-width: 500px){
+    header{
+        font-size: medium;   
+    }
+    .myname{
+        justify-content: space-between;
+    }
+    .container1{
+        display: inline-block;
+    }
+    .container1 .item{
+        width: 450px;
+    }
+    .bottomimg{
+        height: 22vh;
+        width: 450px;
+        margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Add CSS styling here */

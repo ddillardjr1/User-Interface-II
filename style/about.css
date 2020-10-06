@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    
+}
+html{
+    font-size:62.5%;
+}
+h1{ 
+   font-family:"Press Start 2p";
+   color:wheat;
+   text-shadow: 4px 4px rgba(255, 255, 255, 0.301);
+   
+}
+/* bg-color */
+.bg-clr{
+    background-color:rgb(83, 27, 27);
+}
+
+
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    /* background image for website */
+    background-image: url(https://background-tiles.com/overview/red/patterns/large/1056.png);
+}

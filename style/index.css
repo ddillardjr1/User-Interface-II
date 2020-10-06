@@ -45,15 +45,14 @@ body{
 
 .container1 .item{
     width: 45%;
-    height:250px;
+    height:25vh;
     background: url(https://picsum.photos/250) no-repeat center center/cover;
     border:1px solid black;
     margin:20px;
 }
 .container1 .myname a{
-    width:200px;
-    margin-top:15px;
-    margin-bottom:15px;
+    width:100%;
+    margin: 1.5vh 0;
     background-color:black;
     color:white;
 }
@@ -68,7 +67,7 @@ section{
 }
 /* section images */
 section img{
-    margin:10px;
+    margin:2%;
 }
 
 .yosemite{
@@ -91,10 +90,6 @@ section img{
 .button4{
     width:100%;
     color:white;
-}
-
-.coolio{
-    flex-grow:200px;
 }
 
 .buttons{  
@@ -142,12 +137,12 @@ a{
 
 footer{
     width: 100%;
-    padding: 10px;
+    padding: 0.1vh;
 }
 .bottomimg{
-    height: 225px;
+    height: 22vh;
     width: 100%;
-    padding: 10px;
+    padding: 0.8%;
 }
 .bottomimg img{
     height: 100%;
@@ -161,7 +156,7 @@ footer .buttons{
 }
 
 .contactBar{
-    padding: 10px;
+    padding: 0.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,7 +169,44 @@ footer .buttons{
 
 }
 .contactbar p{
-    padding-bottom: 15px;
+    padding-bottom: 0.2%;
+}
+
+@media(max-width: 800px){
+    header{
+        font-size: x-large;
+    }
+    .container1{
+        display: inline-block;
+    }
+    .container1 .item{
+        width:600px;
+    }
+    .bottomimg{
+        height: 22vh;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .container1 .myname a{
+        width:27%;
+}
+@media(max-width: 500px){
+    header{
+        font-size: medium;   
+    }
+    .myname{
+        justify-content: space-between;
+    }
+    .container1{
+        display: inline-block;
+    }
+    .container1 .item{
+        width: 450px;
+    }
+    .bottomimg{
+        height: 22vh;
+        width: 450px;
+        margin: 0 auto;
 }
 
 
